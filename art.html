@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+ <!-- Popper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!--CSS-->
+ <link rel="stylesheet" href="ShyloWebsite.css">
+
+ <!--Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+ <!--Font2-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body id="bodyart">
+
+  <audio id="fnaf" src="sounds/fnaf.mp3" preload="auto"></audio>
+
+  <nav class="navbar navbar-expand-md sticky-top text-center">
+    <button id="button1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+        <a href="javascript:playSound('fnaf');" id="playSound">
+          <img src="images/Logo/Logo2.png" width="70" height="20" class="img-fluid pt-4" id="logonoise" alt="logo">
+        </a>
+        <li class="nav-item">
+          <a class="nav-link pt-5" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-5" href="aboutme.html">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-5" href="mywork.html">My Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link pt-5" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+    
+    <section>
+<div class="container text-left" >
+    <div class="row">
+        <div class="col-sm-5" id="animationback">
+            <a href="mywork.html">
+                <h1>&larr;</h1>
+            </a>
+        </div>
+        <div class="col-sm-7">
+            <h1>Digital Art</h1>
+            <p>Click for more information</p>
+        </div>
+    </div>
+</div>
+</section>
+
+<section id="works">
+<div class="container p-5 text-center" >
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/Art/Alleyway.png" width="400" height="400" alt="Alleyway" data-toggle="modal" data-target="#AlleyModal">
+          <h2>Alleyway</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/Art/BabyGirlDizzy.png" width="400" height="400" alt="DizzyHuman" data-toggle="modal" data-target="#DizzyModal">
+          <h2>Human Dizzy</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/Art/ChilliePlease.png" width="400" height="400" alt="Scaryface" data-toggle="modal" data-target="#ScaryModal">
+          <h2>Chillies On Mines Please</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/Art/Flowers.png" width="400" height="400" alt="Flowers" data-toggle="modal" data-target="#FlowersModal">
+          <h2>Flower Shop</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/Art/TheGirl.png" width="400" height="400" alt="Girl" data-toggle="modal" data-target="#GirlModal">
+          <h2>Smiling Girl</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/Art/VikingFather.png" width="400" height="400" alt="Viking" data-toggle="modal" data-target="#VikingModal">
+          <h2>Viking Father</h2>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!--Modals-->
+
+  <!--Alley-->
+<div class="modal fade" id="AlleyModal" tabindex="-1" role="dialog" aria-labelledby="AlleyModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="AlleyModalTitle">Alleyway</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <img class="img-fluid" src="images/Optimized/Art/Alleyway.png" alt="alleyway">
+          <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p>Although it is a simple alleyway, this was one of the first backgrounds I had made for my Capstone animation. I have done a few background drawings before but none of them turned out exactly the way I wanted, but this alleyway was something I became proud of.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Dizzy-->
+<div class="modal fade" id="DizzyModal" tabindex="-1" role="dialog" aria-labelledby="DizzyModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="DizzyModalTitle">Dizzy</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <img class="img-fluid" src="images/Optimized/Art/DizzyHuman.png" alt="Dizzy">
+          <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p>Dizzy is a cat character I created for fun, he is a representation of myself mixed with a more witchy archetype. This was one of the first pieces I did with a more complex pose and painting style, as I wanted to learn more about anatomy and painting skin. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close2" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Scary-->
+<div class="modal fade" id="ScaryModal" tabindex="-1" role="dialog" aria-labelledby="ScaryModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="ScaryModalTitle">Chillies on Mines Please</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <img class="img-fluid" src="images/Optimized/Art/Chillie.png" alt="Scary">
+          <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p>This drawing is a bit scary and hard to understand, it was based on a meme and was an inside joke with me and my friends. I included this because as goofy as this piece is, it shows off my ability to make anything creepy, which I often do because of my love for horror.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close3" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Flowers-->
+<div class="modal fade" id="FlowersModal" tabindex="-1" role="dialog" aria-labelledby="FlowersModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="FlowersModalTitle">Flower Shop</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <img class="img-fluid" src="images/Optimized/Art/Flowers.png" alt="Flowers">
+          <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p>Similar to the alleyway, this piece was made for my capstone project. I put a lot of detail into the flowers for no good reason. I don't often draw flowers, but my grandma has a major green thumb which sparked my love for flowers, so I wanted to portray them in the prettiest way I could.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close4" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Girl-->
+<div class="modal fade" id="GirlModal" tabindex="-1" role="dialog" aria-labelledby="GirlModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="GirlModalTitle">Smiling Girl</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <img class="img-fluid" src="images/Optimized/Art/SmilingGirl.png" alt="Girl">
+          <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p>As part of a school project, I decided I would draw all my classmates' characters. After about 3 headshot drawings I switched what my project goal was, but I ended up with some headshots I was proud of, such as this one. This is one of the first fully coloured drawings I have done in a long time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close5" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Viking-->
+<div class="modal fade" id="VikingModal" tabindex="-1" role="dialog" aria-labelledby="VikingModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="VikingModalTitle">Viking Father</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <img class="img-fluid" src="images/Optimized/Art/Viking.png" alt="Viking">
+          <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p>Based on my father, this drawing is a personified version of him. My father is a 6"2 red-headed man, so I figured that portraying him as a cute chibi Viking would be fitting but also would contrast his actual image. My dad loved this drawing and had it put onto a sweater.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close6" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer-->
+<section>
+  <footer>
+    <div class="container-fluid pt-5">
+      <div class="row pt-5">
+        <div class="col-sm-12">
+          <img src="images/Hero/Footer2.png" class="img-responsive w-100" height="200">
+        </div>
+      </div>
+    </div>
+  </footer>
+</section>
+
+
+  <!--JS-->
+ <script src="ShyloWebsite.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+ <!-- Popper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!--CSS-->
+ <link rel="stylesheet" href="ShyloWebsite.css">
+
+ <!--Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+ <!--Font2-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body id="bodycontact">
+
+    <audio id="fnaf" src="sounds/fnaf.mp3" preload="auto"></audio>
+
+    <nav class="navbar navbar-expand-md sticky-top text-center">
+        <button id="button1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <a href="javascript:playSound('fnaf');" id="playSound">
+              <img src="images/Logo/Logo2.png" width="70" height="20" class="img-fluid pt-4" id="logonoise" alt="logo">
+            </a>
+            <li class="nav-item">
+              <a class="nav-link pt-5" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pt-5" href="aboutme.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pt-5" href="mywork.html">My Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pt-5" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container text-center pt-5">
+        <div class="row" >
+            <div class="col-sm-12 pt-5">
+                <form id="mailform" class="needs-validation" novalidate>
+                    <h2 id="response"></h2>
+                        <div class="form-row">
+                          <div class="col">
+                            <label id="First" class="pb-1" for="FirstName">First Name</label>
+                            <input id="FirstName" type="text" class="form-control" placeholder="First Name" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please enter your first name.</div>
+                          </div>
+                          <div class="col">
+                            <label id="Last" class="pb-1" for="LastName">Last Name</label>
+                            <input id="LastName" type="text" class="form-control" placeholder="Last Name" required>
+                            <div class="valid-feedback">Valid.</div>
+                            <div class="invalid-feedback">Please enter your last name.</div>
+                          </div>
+                        </div>
+                    <div class="form-group pt-5">
+                      <label id="Mail" class="pb-1" for="Email">Email</label>
+                      <input type="email" class="form-control" id="Email" placeholder="Email" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please enter your email.</div>
+                    </div>
+                    <div class="form-group pt-5">
+                        <label id="Mess" class="pb-1" for="Message">Message</label>
+                        <textarea class="form-control" id="Message" rows="5" placeholder="Message" required></textarea>
+                        <div class="valid-feedback">Valid.</div>
+                        <div class="invalid-feedback">Please enter your message.</div>
+                    </div>
+                    <button id="sendMail" type="button" class="btn btn-danger">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5" id="Media">
+        <div class="row text-center pt-5">
+            <div class="col-sm-4">
+                <a href="https://www.instagram.com/bepisdraws" target="_blank">
+                    <img width="50" height="50" class="img-fluid" src="images/MediaIcons/Instagram.png" alt="Instagram">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://ca.linkedin.com/in/shylo-o-78b71220a" target="_blank">
+                    <img img width="50" height="50" class="img-fluid" src="images/MediaIcons/Linkedin.png" alt="Linkedin">
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://www.youtube.com/@BepisDraws" target="_blank">
+                    <img img width="50" height="50" class="img-fluid" src="images/MediaIcons/Youtube.png" alt="Youtube">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-fluid pt-5">
+          <div class="row pt-5">
+            <div class="col-sm-12">
+              <img src="images/Hero/Footer2.png" class="img-responsive w-100" height="200">
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <script src="ShyloWebsite.js"></script>
+
+    
+</body>
+</html>

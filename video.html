@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+ <!-- Popper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!--CSS-->
+ <link rel="stylesheet" href="ShyloWebsite.css">
+
+ <!--Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+ <!--Font2-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body id="bodyvideo">
+
+    <audio id="fnaf" src="sounds/fnaf.mp3" preload="auto"></audio>
+
+    <nav class="navbar navbar-expand-md sticky-top text-center">
+      <button id="button1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <a href="javascript:playSound('fnaf');" id="playSound">
+            <img src="images/Logo/Logo2.png" width="70" height="20" class="img-fluid pt-4" id="logonoise" alt="logo">
+          </a>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="aboutme.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+<div class="container text-left" >
+    <div class="row">
+        <div class="col-sm-5" id="animationback">
+            <a href="mywork.html">
+                <h1>&larr;</h1>
+            </a>
+        </div>
+        <div class="col-sm-7">
+            <h1>Video Editing</h1>
+            <p>Click for more information</p>
+        </div>
+        
+    </div>
+</div>
+
+<div class="container p-5 text-center" id="works">
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/Video/Aboutme.png" width="400" height="400" alt="AboutMe" data-toggle="modal" data-target="#MeModal">
+        <h2>About Me</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/Video/ColourTheory.png" width="400" height="400" alt="ColourTheory" data-toggle="modal" data-target="#ColourModal">
+          <h2>Colour Theory</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/Video/Commercial.png" width="400" height="400" alt="Commercial" data-toggle="modal" data-target="#CommercialModal">
+          <h2>Commercial</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/Video/DemoReel.png" width="400" height="400" alt="DemoReel" data-toggle="modal" data-target="#DemoModal">
+          <h2>Demo Reel</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/Video/Fnafcutscene.png" width="400" height="400" alt="Cutscene" data-toggle="modal" data-target="#FnafModal">
+          <h2>Fnaf Cutscene</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/Video/RaymondPromo.png" width="400" height="400" alt="Raymond" data-toggle="modal" data-target="#RaymondModal">
+          <h2>Raymond Music Festival</h2>
+      </div>
+    </div>
+  </div>
+
+  <!--Modals-->
+
+  <!--About me-->
+<div class="modal fade" id="MeModal" tabindex="-1" role="dialog" aria-labelledby="MeModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="AlleyModalTitle">Beep Amimated Logo</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="AboutVideo" width="560" height="315" src="https://www.youtube.com/embed/m30MOJsGPXY?si=l8YSF9ohJe5d7B7h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+             <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Colour Theory-->
+<div class="modal fade" id="ColourModal" tabindex="-1" role="dialog" aria-labelledby="ColourModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="ColourModalTitle">Colour Theory</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="ColourVideo" width="560" height="315" src="https://www.youtube.com/embed/61MnssR8DD8?si=cz_8hhem5rKD6Il_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close2" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Commercial-->
+<div class="modal fade" id="CommercialModal" tabindex="-1" role="dialog" aria-labelledby="CommercialModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="CommercialModalTitle">Commercial</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="CommercialVideo" width="560" height="315" src="https://www.youtube.com/embed/fcEljc3Zc5o?si=WbUHbiCHUQge6y1b" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close3" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Demo Reel-->
+<div class="modal fade" id="DemoModal" tabindex="-1" role="dialog" aria-labelledby="DemoModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="DemoModalTitle">Demo Reel</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="DemoVideo" width="560" height="315" src="https://www.youtube.com/embed/PW0SDFiHPzM?si=yM4PCpZehNgW-ETG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close4" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Fnaf Cutscene-->
+<div class="modal fade" id="FnafModal" tabindex="-1" role="dialog" aria-labelledby="FnafModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="FnafModalTitle">Fnaf Cutscene</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="FnafVideo" width="560" height="315" src="https://www.youtube.com/embed/MqXqRwBqzJ0?si=FV4uQtVym-_Vm8eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close5" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Raymond-->
+<div class="modal fade" id="RaymondModal" tabindex="-1" role="dialog" aria-labelledby="RaymondModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="RaymondModalTitle">Raymond Music Festival</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="RaymondVideo" width="560" height="315" src="https://www.youtube.com/embed/2EQF48iWvA8?si=n9pDfkUO7UTe3C14" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close6" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="container-fluid pt-5">
+      <div class="row pt-5">
+        <div class="col-sm-12">
+          <img src="images/Hero/Footer2.png" class="img-responsive w-100" height="200">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--JS-->
+ <script src="ShyloWebsite.js"></script>
+
+</body>
+</html>

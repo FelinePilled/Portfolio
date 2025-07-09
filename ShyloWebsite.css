@@ -1,0 +1,151 @@
+Body{
+    background: black;
+}
+a:link{
+    color:white;
+        
+    }
+    /*visted link*/
+    a:visited{
+        color:white;
+    }
+    /*mouse hover*/
+    a:hover{
+        color:red;
+        text-decoration:none;
+    }
+    /*pressing down on link*/
+    a:active{
+        color:#700a0c;
+    }
+
+  nav{
+    background: black;
+    opacity: 70%;
+  }
+  h1, h2, p, h5{
+    color: white;
+  }
+ 
+  #p1, h4{
+    color: white;
+  }
+
+  h1 , nav, h2, button, h5{
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+p, h4{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+  .navbar-nav > li{
+    padding-left:70px;
+    padding-right:70px;
+  }
+
+  button{
+    background-color: #700a0c;
+    color:white;
+    border: none;
+    font-size: 20px;
+    padding: 12px 70px;
+  }
+
+
+  #bodywork{
+    background-image: url("images/Backgrounds/Triangle.png");
+    }
+
+
+  #mywork{
+    img:hover{
+      transform:scale(1.05);
+      filter: brightness(170%);
+  }
+}
+
+  #bodyme{
+    background-image: url("images/Backgrounds/star.png");
+    height: 1200px;
+    background-position: right;
+  }
+
+  #bodyindex{
+    background-image: url("images/Backgrounds/polygon.png");
+    
+  }
+
+  #works{
+    img:hover{
+      transform:scale(1.05);
+      filter: brightness(170%);
+    }
+  }
+
+  #Media{
+    img:hover{
+      transform:scale(1.05);
+      filter: brightness(170%);
+    }
+  }
+
+  #bodycontact{
+    background-image: url("images/Backgrounds/tallcircles.png");
+    background-size: cover;
+  
+  }
+
+  button:hover {
+    transform:scale(1.05);
+    opacity:80%;
+  }
+
+  #bodyart, #body3D, #bodylogo, #bodydesign, #bodyvideo, #bodyanimation{
+    background-image: url("images/Backgrounds/circles.png");
+  }
+
+#animationback{
+    h1:hover{
+      color:red;
+    }
+  }
+
+  audio { 
+    display:none;
+  }
+
+  .modal-body, .modal-header, .modal-footer {
+    background:black;
+    border-color: #700a0c;
+  }
+
+  #close {
+    background-color: #700a0c;
+    color:white;
+    border: none;
+  }
+
+  #MalisonVideo, #MelonVideo, #MonkeyVideo, #SharkVideo, #AboutVideo, #ColourVideo, #CommercialVideo, #DemoVideo, #FnafVideo, #RaymondVideo {
+    width: 50vw;
+    height: 50vh;
+  }
+
+  #First, #Last, #Mail, #Mess{
+    color: white;
+  }
+
+  .navbar-toggler{
+
+  background-color: #700a0c;
+  border-color: #ffffff;
+}
+  
+
+   

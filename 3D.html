@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D</title>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+ <!-- Popper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!--CSS-->
+ <link rel="stylesheet" href="ShyloWebsite.css">
+
+ <!--Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+ <!--Font2-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body id="body3D">
+
+    <audio id="fnaf" src="sounds/fnaf.mp3" preload="auto"></audio>
+
+    <nav class="navbar navbar-expand-md sticky-top text-center">
+      <button id="button1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <a href="javascript:playSound('fnaf');" id="playSound">
+            <img src="images/Logo/Logo2.png" width="70" height="20" class="img-fluid pt-4" id="logonoise" alt="logo">
+          </a>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="aboutme.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+<div class="container text-left" >
+    <div class="row">
+        <div class="col-sm-5" id="animationback">
+            <a href="mywork.html">
+                <h1>&larr;</h1>
+            </a>
+        </div>
+        <div class="col-sm-7">
+            <h1>3D Models</h1>
+            <p>Click for more information</p>
+        </div>
+        
+    </div>
+</div>
+
+<div class="container p-5 text-center" id="works">
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/3D/Dizzy3D.png" width="400" height="400" alt="DizzyTheCat" data-toggle="modal" data-target="#Dizzy3DModal">
+          <h2>Dizzy</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/3D/Koko.png" width="400" height="400" alt="KokoMMP" data-toggle="modal" data-target="#KokoModal">
+          <h2>Koko</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/3D/Reeve.png" width="400" height="400" alt="Human3DModel" data-toggle="modal" data-target="#Reeve3DModal">
+          <h2>Reeve</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/3D/TightRope.png" width="400" height="400" alt="TightRope" data-toggle="modal" data-target="#TightropeModal">
+          <h2>TightRope</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/3D/HospitalTable.png" width="400" height="400" alt="HospitalTable" data-toggle="modal" data-target="#HospitalModal">
+          <h2>Hospital Table</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/3D/RubberDuck.png" width="400" height="400" alt="RubberDuck" data-toggle="modal" data-target="#DuckyModal">]
+          <h2>Rubber Duck</h2>
+      </div>
+    </div>
+  </div>
+
+
+ <!--Modals-->
+
+  <!--Dizzy-->
+  <div class="modal fade" id="Dizzy3DModal" tabindex="-1" role="dialog" aria-labelledby="Dizzy3DModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="DizzyModalTitle">Dizzy 3D</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/3D/Dizzy3D.png" alt="Dizzy3D">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>I first learned 3D modelling through school, however, I loved it so much that I worked on lots of 3D modelling outside of schooling. I wanted to make a Model that looked 2D despite actually being 3D. Using my Dizzy character I had managed to make that effect and loved the way it turned out, I had also figured out how to rig models on my own with this project as well.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Koko-->
+  <div class="modal fade" id="KokoModal" tabindex="-1" role="dialog" aria-labelledby="KokoModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="KokoModalTitle">Koko MMP</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/3D/Koko/Koko1.png" alt="Koko">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>In college, I had a project where I was required to make a model based on our program “Multimedia”. The mascot of the program is named Koko, she is a cute little bear with a head TV. Using an open-source web framework called A-frame, we had to code an interactable website (here) with our model. I went back in and tweaked it weeks after completing the website, so it had more shadows and better lighting.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close2" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Reeve-->
+  <div class="modal fade" id="Reeve3DModal" tabindex="-1" role="dialog" aria-labelledby="Reeve3DModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="ReeveModalTitle">Reeve 3D</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/3D/Reeve3D.png" alt="Reeve">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>As a college project we were tasked to make a character model, I went with one of my characters named “Reeve” because I knew it would be challenging enough in the places that mattered and simple in the less important areas. After about a year or so, I returned to the model to rework it and ended up with this. I am proud of how he turned out and I am still working on him to this day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close3" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!--Tightrope-->
+  <div class="modal fade" id="TightropeModal" tabindex="-1" role="dialog" aria-labelledby="TightropeModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="TightropeModalTitle">Tight Rope</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/3D/Tightrope.png" alt="Tightrope">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>In the last year of my program, we had to use our skills to create a simple but inspiring poster. I wanted to go above and beyond for this project and mixed 3D modelling with graphic design to make the poster. This was my first time messing with texture painting, it was a struggle at first but I eventually figured it out, and though it was a simple 3D model I liked how the rope and background turned out.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close4" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Hospital Table-->
+  <div class="modal fade" id="HospitalModal" tabindex="-1" role="dialog" aria-labelledby="HospitalModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="HospitalModalTitle">Hospital Table</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/3D/Hospital.png" alt="Hospital">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>In College, we were tasked with a 3D modelling project where we chose a theme and made three items based on that theme. I chose the theme “hospital”, inspired by one of my favourite games called “Outlast” which takes place in a mental hospital. I decided to go with more than three items to challenge myself a little more, and to create a better atmosphere for the photo. This was my first time using procedural textures and I was pleased with how the scratchy metal came out.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close5" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Ducky-->
+  <div class="modal fade" id="DuckyModal" tabindex="-1" role="dialog" aria-labelledby="DuckyModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="DuckyModalTitle">Rubber Duck</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/3D/Ducky.png" alt="Ducky">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>We learned about low polygon modelling in our 3D modelling class, and we were challenged to make a low polygon rubber duck. I textured the duck further, making it smooth throughout the process. This project helped me learn the importance of having and using low polygon objects in games and websites to optimize their performance.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close6" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer>
+    <div class="container-fluid pt-5">
+      <div class="row pt-5">
+        <div class="col-sm-12">
+          <img src="images/Hero/Footer2.png" class="img-responsive w-100" height="200">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!--JS-->
+<script src="ShyloWebsite.js"></script>
+
+</body>
+</html>

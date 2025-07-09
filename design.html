@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Design</title>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+ <!-- Popper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!--CSS-->
+ <link rel="stylesheet" href="ShyloWebsite.css">
+
+ <!--Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+ <!--Font2-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body id="bodydesign">
+
+    <audio id="fnaf" src="sounds/fnaf.mp3" preload="auto"></audio>
+
+    <nav class="navbar navbar-expand-md sticky-top text-center">
+      <button id="button1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <a href="javascript:playSound('fnaf');" id="playSound">
+            <img src="images/Logo/Logo2.png" width="70" height="20" class="img-fluid pt-4" id="logonoise" alt="logo">
+          </a>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="aboutme.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+<div class="container text-left" >
+    <div class="row">
+        <div class="col-sm-5" id="animationback">
+            <a href="mywork.html">
+                <h1>&larr;</h1>
+            </a>
+        </div>
+        <div class="col-sm-7">
+            <h1>Digital Design</h1>
+            <p>Click for more information</p>
+        </div>
+        
+    </div>
+</div>
+
+<div class="container p-5 text-center" id="works">
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/DigitalDesign/CellphoneLove.png" width="400" height="400" alt="Cellphone" data-toggle="modal" data-target="#CellphoneModal">
+          <h2>Cellphone I&hearts;U</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/DigitalDesign/MonkeyBoss.png" width="400" height="400" alt="MonkeyBoss" data-toggle="modal" data-target="#MonkeyModal">
+          <h2>Monkey Boss</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/DigitalDesign/Pokemon.png" width="400" height="400" alt="Rayquaza" data-toggle="modal" data-target="#PokemonModal">
+          <h2>Mega Rayquaza</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/DigitalDesign/RemRezero.png" width="400" height="400" alt="RemRezero" data-toggle="modal" data-target="#RemModal">
+          <h2>Rem Rezero</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/DigitalDesign/TanyaUnicorn.png" width="400" height="400" alt="Unicorn" data-toggle="modal" data-target="#TanyaModal">
+          <h2>Tanya Unicorn</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/DigitalDesign/Workshop.png" width="400" height="400" alt="Workshop" data-toggle="modal" data-target="#WorkshopModal">
+          <h2>Workshop Poster</h2>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Modals-->
+
+  <!--Cellphone-->
+  <div class="modal fade" id="CellphoneModal" tabindex="-1" role="dialog" aria-labelledby="CellphoneModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="CellphoneModalTitle">Cellphone I&hearts;U</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid pb-5" src="images/Optimized/DigitalDesign/IheartU.png" alt="Cellphone">
+            <div class="row">
+              <div class="col-sm-12">
+                <p>For my mom's birthday, I wanted to make her something personal that she could carry with her anywhere she wanted. With my button maker in hand, I made a few designs for some buttons. I was born around the early 2000s and one of the things I find most nostalgic is flip phones, with this in mind I made her a graphic with a pink flip phone to put on a button so she could put it on anything she wanted. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Monkey Boss-->
+  <div class="modal fade" id="MonkeyModal" tabindex="-1" role="dialog" aria-labelledby="MonkeyModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="MonkeyModalTitle">Monkey Boss</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid pb-5" src="images/Optimized/DigitalDesign/MonkeyBoss.png" alt="MonkeyBoss">
+            <div class="row">
+              <div class="col-sm-12">
+                <p>In college, we had a class dedicated to making a game in a few months. I was tasked with creating a lot of the assets. As a group, we discussed the characters and landed on a Monkey as a boss. As I played with ideas for the character's design, I was intrigued by a Chinese dragon-inspired monkey boss. I was happy with how the boss came out and ended up animating an intro scene with him, which required me to split the monkey boss into different parts to animate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close2" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Pokemon-->
+  <div class="modal fade" id="PokemonModal" tabindex="-1" role="dialog" aria-labelledby="PokemonModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="PokemonModalTitle">Mega Rayquaza</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/DigitalDesign/Pokemon.png" alt="Pokemon">
+            <div class="row">
+              <div class="col-sm-12">
+                <p>Around Christmas, I didn’t have much money to buy all my family members their gifts. Instead with the help of my mom's heat press, I made one of my cousins a Pokemon design for a keychain as he loves Pokemon as a franchise. I found out what his favourite Pokemon was and I started a design for his keychain right away, finishing it within that day. I expected him to choose a simpler Pokemon but he ended up wanting a very complicated design and I was impressed with myself for getting it done in such a timely manner.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close3" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!--Rem Rezero-->
+  <div class="modal fade" id="RemModal" tabindex="-1" role="dialog" aria-labelledby="RemModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="RemModalTitle">Rem Rezero</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/DigitalDesign/Rem.png" alt="RemRezero">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>As a gift for our friendship, I wanted to make one of my long-time friends a button. I knew that his favourite character was Rem from Rezero so I got to work designing a cute chibi version of that character. After I had sketched out a few designs in Procreate, I transferred it to Illustrator and tweaked it until I was happy with how it looked. I used Illustrator for the vector aspect to size it down to fit the button without losing the much-needed quality. I loved how the colours came out and I'm proud of this illustration.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close4" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Tanya-->
+  <div class="modal fade" id="TanyaModal" tabindex="-1" role="dialog" aria-labelledby="TanyaModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="TanyaModalTitle">Tanya Unicorn</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/DigitalDesign/TanyaCorn.png" alt="TanyaUnicorn">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>In college, we had a lot of helpful and amazing professors, but one stood out in particular. Tanya is a very attentive professor who is extremely understanding and kind-hearted. Because of this, I wanted to give back to her for all the hard work she put in to help us succeed. One of her favourite things ever is unicorns and I thought, what better way to make something than to draw her AS a unicorn herself? With the help of Illustrator, my button maker and my mom's heat press I made her a keychain and a few buttons.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close5" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Workshop-->
+  <div class="modal fade" id="WorkshopModal" tabindex="-1" role="dialog" aria-labelledby="WorkshopModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="WorkshopModalTitle">Workshop Poster</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <img class="img-fluid" src="images/Optimized/DigitalDesign/MagrathArts.png" alt="WorkshopPoster">
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>During my internship, I was tasked with a lot of different projects. The project I was most proud of was the workshop poster I had made for MagrathArts. At first, it was a struggle to figure out what they initially wanted and I scraped an entirely different idea of a singer on the stage, as I was under the impression that it was a singing concert poster. Fortunately, I got more clarity and made a new poster that matched their initial idea more closely. 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close6" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container-fluid pt-5">
+      <div class="row pt-5">
+        <div class="col-sm-12">
+          <img src="images/Hero/Footer2.png" class="img-responsive w-100" height="200">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--JS-->
+ <script src="ShyloWebsite.js"></script>
+
+</body>
+</html>

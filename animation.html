@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+ <!-- Popper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!--CSS-->
+ <link rel="stylesheet" href="ShyloWebsite.css">
+
+ <!--Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+ <!--Font2-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body id="bodyanimation">
+
+    <audio id="fnaf" src="sounds/fnaf.mp3" preload="auto"></audio>
+
+    <nav class="navbar navbar-expand-md sticky-top text-center">
+      <button id="button1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <a href="javascript:playSound('fnaf');" id="playSound">
+            <img src="images/Logo/Logo2.png" width="70" height="20" class="img-fluid pt-4" id="logonoise" alt="logo">
+          </a>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="aboutme.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+<div class="container text-left" >
+    <div class="row">
+        <div class="col-sm-5" id="animationback">
+            <a href="mywork.html">
+                <h1>&larr;</h1>
+            </a>
+        </div>
+        <div class="col-sm-7">
+            <h1>Animation</h1>
+            <p>Click for more information</p>
+        </div>
+        
+    </div>
+</div>
+
+<div class="container p-5 text-center" id="works">
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/Animation/Animatedlogo.png" width="400" height="400" alt="AnimatedLogo" data-toggle="modal" data-target="#BeepModal">
+          <h2>Beep Animated Logo</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/Animation/GemAnimated.png" width="400" height="400" alt="GEM" data-toggle="modal" data-target="#GemModal">
+          <h2>Gem Animated Logo</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/Animation/Malison.png" width="400" height="400" alt="Malison" data-toggle="modal" data-target="#MalisonModal">
+          <h2>Malison</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/Animation/MelonMenace.png" width="400" height="400" alt="MelonMenace" data-toggle="modal" data-target="#MelonModal">
+          <h2>Melon Menace</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/Animation/MonkeyTransform.png" width="400" height="400" alt="Monkey" data-toggle="modal" data-target="#MonkeyModal">
+          <h2>Monkey Transform</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/Animation/Shark.png" width="400" height="400" alt="Shark" data-toggle="modal" data-target="#SharkModal">
+          <h2>Shark</h2>
+      </div>
+    </div>
+  </div>
+
+  <!--Modals-->
+
+  <!--Beep Animated Logo-->
+<div class="modal fade" id="BeepModal" tabindex="-1" role="dialog" aria-labelledby="BeepModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="BeepTitle">Beep Animated Logo</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <video class="img-fluid" autoplay muted loop playsinline>
+            <source src="images/Optimized/Animation/Mp4/AnimatedLogo_1.mov" type="video/mp4">
+            <source src="images/Optimized/Animation/Webm/AnimatedLogo_2.webm" type="video/webm">
+            Your browser does not support the video tag.
+    </video>
+          <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Gem Logo-->
+<div class="modal fade" id="GemModal" tabindex="-1" role="dialog" aria-labelledby="GemModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="GemTitle">GEM Logo</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <video class="img-fluid" autoplay muted loop playsinline>
+            <source src="images/Optimized/Animation/Mp4/GEMAnimatedLogo_1.mp4" type="video/mp4">
+            <source src="images/Optimized/Animation/Webm/GEMAnimatedLogo_2.webm" type="video/webm">
+            Your browser does not support the video tag.
+    </video>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close2" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Melon Menace-->
+<div class="modal fade" id="MelonModal" tabindex="-1" role="dialog" aria-labelledby="MelonModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="MelonTitle">Melon Menace</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="MelonVideo" width="560" height="315" src="https://www.youtube.com/embed/2C3UqfAgZ_k?si=m4zFxXcvybrLkwR_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close3" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Malison-->
+<div class="modal fade" id="MalisonModal" tabindex="-1" role="dialog" aria-labelledby="MalisonModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="MalisonModalTitle">Malison</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="MalisonVideo" width="560" height="315" src="https://www.youtube.com/embed/t3UEVjXtm1U?si=OQCQoW6e-ZQR5efY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close4" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Monkey-->
+<div class="modal fade" id="MonkeyModal" tabindex="-1" role="dialog" aria-labelledby="MonkeyModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="MonkeyModalTitle">Monkey Tranformation</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="MonkeyVideo" width="560" height="315" src="https://www.youtube.com/embed/8LDMCrTwPLA?si=2ZWdASrasq_CEWog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close5" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Shark-->
+<div class="modal fade" id="SharkModal" tabindex="-1" role="dialog" aria-labelledby="SharkModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h2 class="modal-title w-100" id="SharkModalTitle">Shark</h2>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    <div class="modal-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <iframe class="img-fluid" id="SharkVideo" width="560" height="315" src="https://www.youtube.com/embed/sVdtNxtIsic?si=HV1unzyqnPs8xqqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div class="row">
+            <div class="col-sm-12">
+              <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="modal-footer">
+        <button id="close6" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="container-fluid pt-5">
+      <div class="row pt-5">
+        <div class="col-sm-12">
+          <img src="images/Hero/Footer2.png" class="img-responsive w-100" height="200">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--JS-->
+ <script src="ShyloWebsite.js"></script>
+
+</body>
+</html>
