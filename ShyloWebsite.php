@@ -11,7 +11,7 @@ $msg="Name: ".$first." ".$last."\nEmail: ".$email."\nMessage: ".$message;
 
 
 // send email
-mail("shylo.olsen@lethbridgecollege.ca","You've got mail!",$msg);
+mail("shylolee02@hotmail.com","You've got mail!",$msg);
 
 }
 
