@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Animations</title>
+    <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+ <!-- jQuery library -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+ <!-- Popper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+ <!-- Latest compiled JavaScript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+ <!--CSS-->
+ <link rel="stylesheet" href="ShyloWebsite.css">
+
+ <!--Font-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+ <!--Font2-->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Metal+Mania&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body id="body3D">
+
+    <audio id="fnaf" src="sounds/fnaf.mp3" preload="auto"></audio>
+
+    <nav class="navbar navbar-expand-md sticky-top text-center">
+      <button id="button1" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+          <a href="javascript:playSound('fnaf');" id="playSound">
+            <img src="images/Logo/Logo2.png" width="70" height="20" class="img-fluid pt-4" id="logonoise" alt="logo">
+          </a>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="aboutme.html">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="mywork.html">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link pt-5" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+<div class="container" >
+    <div class="row">
+        <div class="col-sm-1" id="animationback">
+            <a href="3DType.html">
+                <h1>&larr;</h1>
+            </a>
+        </div>
+        <div class="col-sm-12 text-center">
+            <h1>3D Animations</h1>
+            <p class="pl-4">Click for more information</p>
+        </div>  
+    </div>
+</div>
+
+<div class="container p-5 text-center" id="works">
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/3DAnimation/Stanup.png" width="400" height="400" alt="StandUp" data-toggle="modal" data-target="#StandUpModal">
+          <h2>Stand Up Animation</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/3DAnimation/UnityCutscene.png" width="400" height="400" alt="Cutscene" data-toggle="modal" data-target="#CutsceneModal">
+          <h2>Unity Cutscene</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/3DAnimation/Mothboy.png" width="400" height="400" alt="Moth" data-toggle="modal" data-target="#MothModal">
+          <h2>Moth Boy</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-4 pt-5">
+          <img class="img-fluid" src="images/Projects/3DAnimation/Flower.png" width="400" height="400" alt="FlowerStaff" data-toggle="modal" data-target="#FlowerModal">
+          <h2>Flower Staff</h2>
+      </div>
+      <div class="col-sm-4 img-fluid">
+          <img class="img-fluid" src="images/Projects/3DAnimation/BoxJump.png" width="400" height="400" alt="BoxJump" data-toggle="modal" data-target="#JumpModal">
+          <h2>Box Jump</h2>
+      </div>
+      <div class="col-sm-4 img-fluid pt-5">
+          <img class="img-fluid" src="images/Projects/3DAnimation/Maverickcafe.png" width="400" height="400" alt="MaverickCafe" data-toggle="modal" data-target="#CafeModal">
+          <h2>Maverick Cafe VR</h2>
+      </div>
+    </div>
+  </div>
+
+
+ <!--Modals-->
+
+  <!--StandUp-->
+  <div class="modal fade" id="StandUpModal" tabindex="-1" role="dialog" aria-labelledby="StandUpModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header text-center">
+                <h2 class="modal-title w-100" id="StandModalTitle">Stand Up Animation</h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <iframe id="StandUpVideo" class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/q9OR2o9VLQE?si=OL1q1wV66eVAdprD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="row">
+                            <div class="col-sm-12 pt-5">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="close" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- Stop Video -->
+<script>
+  $('#StandUpModal').on('hidden.bs.modal', function () {
+    var $iframe = $(this).find('iframe');
+    $iframe.attr('src', $iframe.attr('src')); // Reset src to stop video
+  });
+</script>
+  
+  <!--Unity-->
+  <div class="modal fade" id="CutsceneModal" tabindex="-1" role="dialog" aria-labelledby="CutsceneModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="CutsceneModalTitle">Unity Cutscene</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <iframe id="CutsceneVideo" class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/53YKu6qEyZw?si=52Rmtr9gFeLZK8_r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close2" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Stop Video-->
+<script>
+  $('#CutsceneModal').on('hidden.bs.modal', function () {
+    var $iframe = $(this).find('iframe');
+    $iframe.attr('src', $iframe.attr('src')); // Reset src to stop video
+  });
+</script>
+  
+  <!--Moth-->
+  <div class="modal fade" id="MothModal" tabindex="-1" role="dialog" aria-labelledby="MothModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="MothModalTitle">Moth Boy</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <iframe id="MothVideo" class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/j81U5NsyaZc?si=7qYDU8rtPEO772t3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close3" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Stop Video-->
+<script>
+  $('#MothModal').on('hidden.bs.modal', function () {
+    var $iframe = $(this).find('iframe');
+    $iframe.attr('src', $iframe.attr('src')); // Reset src to stop video
+  });
+</script>
+  
+  
+  <!--Flower-->
+  <div class="modal fade" id="FlowerModal" tabindex="-1" role="dialog" aria-labelledby="FlowerModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="FlowerModalTitle">Flower Staff</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <iframe id="FlowerVideo" class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/e5n9yjBwnWw?si=TB41bJOF0mJZN_4z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close4" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Stop Video-->
+<script>
+  $('#FlowerModal').on('hidden.bs.modal', function () {
+    var $iframe = $(this).find('iframe');
+    $iframe.attr('src', $iframe.attr('src')); // Reset src to stop video
+  });
+</script>
+  
+  <!--Box Jump-->
+  <div class="modal fade" id="JumpModal" tabindex="-1" role="dialog" aria-labelledby="JumpModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="BoxModalTitle">Box Jump Animation</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <iframe id="JumpVideo" class="img-fluid" width="560" height="315" src="https://www.youtube.com/embed/2PYpO3MWvsk?si=lYrGa6G8w8k9A0xi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="row">
+              <div class="col-sm-12 pt-5">
+                <p>
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close5" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!--Stop Video-->
+<script>
+  $('#JumpModal').on('hidden.bs.modal', function () {
+    var $iframe = $(this).find('iframe');
+    $iframe.attr('src', $iframe.attr('src')); // Reset src to stop video
+  });
+</script>
+  
+  <!--Place Holder-->
+  <div class="modal fade" id="CafeModal" tabindex="-1" role="dialog" aria-labelledby="CafeModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <h2 class="modal-title w-100" id="CafeModalTitle">Maverick Cafe</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-sm-12">
+            <iframe class="img-fluid" id="CafeVideo" width="560" height="315" src="https://www.youtube.com/embed/wa_80kj5CVY?si=301LiA_HgMGRX50e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="row">
+            <div class="col-sm-12 pt-5">
+              <p>
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+        <div class="modal-footer">
+          <button id="close6" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Stop Video-->
+<script>
+  $('#CafeModal').on('hidden.bs.modal', function () {
+    var $iframe = $(this).find('iframe');
+    $iframe.attr('src', $iframe.attr('src')); // Reset src to stop video
+  });
+</script>
+
+  <footer>
+    <div class="container-fluid pt-5">
+      <div class="row pt-5">
+        <div class="col-sm-12">
+          <img src="images/Hero/Footer2.png" class="img-responsive w-100" height="200">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!--JS-->
+<script src="ShyloWebsite.js"></script>
+
+</body>
+</html>
